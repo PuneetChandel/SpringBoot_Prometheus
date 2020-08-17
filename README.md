@@ -32,6 +32,7 @@ server.port=8080
 #disable security
 management.security.enabled=false
 
+
 #Metrics related configurations
 management.endpoint.metrics.enabled=true
 
