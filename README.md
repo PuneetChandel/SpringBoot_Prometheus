@@ -48,13 +48,13 @@ Data for prometheus will be available at : http://localhost:8080/actuator/promet
 
 ## 4 Install Prometheus
 
-$ docker pull prom/prometheus
+$ docker pull prom/prometheus<br />
 
-- Create yaml file
+Create yaml file<br />
 
-docker run --name prometheus -p 9090:9090 -v $PWD/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus
+docker run --name prometheus -p 9090:9090 -v $PWD/prometheus.yml:/etc/prometheus/prometheus.yml prom/prometheus <br />
 
-Access prometheus : http://localhost:9090/graph 
+Access prometheus : http://localhost:9090/graph <br />
 
 ## 5 installing Graphana
 
