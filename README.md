@@ -1,8 +1,27 @@
 # SpringBoot_Prometheus
 SpringBoot Prometheus Graphana
 
-## 1 Configure actuator in spring boot project
+## 1 Configure actuator,prometheus properties in project
 Refer Pom.xml 
+
+ <!-- Spring boot actuator to expose metrics endpoint -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!-- Micormeter core dependecy  -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-core</artifactId>
+        </dependency>
+
+
+        <!-- Micrometer Prometheus registry  -->
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
 
 ## 2 Set appropriate application properties
 
