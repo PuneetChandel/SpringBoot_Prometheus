@@ -58,7 +58,9 @@ Access prometheus : http://localhost:9090/graph
 ## 5 installing Graphana
 
 #run Grafana
-$ docker run --name grafana -i -p 3000:3000 grafana/grafana
+
+$docker run --name grafana -i -p 3000:3000 grafana/grafana
 
 #open Grafana WebUI and login 
+
 $ open -a Safari http://localhost:3000
