@@ -1,4 +1,4 @@
-# SpringBoot_Prometheus
+# SpringBoot Prometheus Graphana
 SpringBoot Prometheus Graphana
 
 ## 1 Configure actuator,prometheus properties in project
